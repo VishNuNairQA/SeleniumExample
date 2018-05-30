@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- Parallel = classes will run classes defined inside <test> in parallel, 
+	thread-count will determine maximum number of test cases to be executed in parallel -->
+	
+
+<!-- Parallel = tests will run <test> in parallel, 
+	thread-count will determine maximum number of test cases to be executed in parallel -->
+	
+
+<suite name="Suite" parallel="classes" thread-count="2">
+  <test name="Test" >
+    <classes>
+      <class name="TestNG.testNGRedbus"/>
+      <class name="TestNG.testNGMMT"/>
+    </classes>
+  </test>
+  
+</suite>

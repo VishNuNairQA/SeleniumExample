@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14775" started-at="2018-05-27T09:43:23Z" finished-at="2018-05-27T09:43:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14775" started-at="2018-05-27T09:43:23Z" finished-at="2018-05-27T09:43:38Z">
+      <class name="DataDriven.quoraLogin">
+        <test-method status="PASS" signature="openQuora()[pri:0, instance:DataDriven.quoraLogin@2173f6d9]" name="openQuora" duration-ms="7487" started-at="2018-05-27T09:43:23Z" finished-at="2018-05-27T09:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openQuora -->
+        <test-method status="PASS" signature="aquoraLogin()[pri:0, instance:DataDriven.quoraLogin@2173f6d9]" name="aquoraLogin" duration-ms="7266" started-at="2018-05-27T09:43:31Z" depends-on-methods="DataDriven.quoraLogin.openQuora" finished-at="2018-05-27T09:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aquoraLogin -->
+      </class> <!-- DataDriven.quoraLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

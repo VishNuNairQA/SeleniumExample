@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+    <classes>
+    
+    
+      <class name="TestNG.basicProgramOne"/>
+      <class name="TestNG.basicProgramTwo"/>
+      <class name="TestNG.loanCases">
+      	<methods>
+      		<include name="Edu.*"/>
+      	</methods>
+      </class>
+      
+    </classes>
+    
+  </test> 
+  
+<!--   <test name="TestTwo"> -->
+<!--   	<classes> -->
+<!--   		<class name="TestNG.loanCases"/> -->
+<!--   		<class name="TestNG.loanSignUp"/> -->
+<!--   	</classes> -->
+  
+<!--   </test> -->
+  
+</suite> 
