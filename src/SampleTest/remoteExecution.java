@@ -31,8 +31,6 @@ public class remoteExecution {
 		
 		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.109:4444/wd/hub"), opt);
 		
-		
-		//driver.get("https://www.pornhub.com/");
 	
 		
 		driver.get("https://www.makemytrip.com/");
